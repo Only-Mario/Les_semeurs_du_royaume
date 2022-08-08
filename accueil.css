@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,400;0,500;1,300;1,500&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+section{
+  width: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+}
+header{
+  color: white;
+  justify-content: space-between;
+  display: flex; 
+  padding-left: 5em;
+  padding-right: 5em;
+  background-color: #094D8E;
+}
+.navcolor{
+	color: White;
+}
+.left{
+	width: 25%;
+}
+.right{
+	width: 53%;
+ margin-right:0px ;
+}
+.bienvenu{
+	background-color: #094D8E;
+	color: white;
+	padding-left: 5em;
+    padding-right: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+.bienvenu-left{
+	width: 40%;
+	padding-top: 5em;
+}
+.bienvenu-right{
+	
+	margin-left: 15em;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.color1{
+  color: #094D8E;
+}
+.color2{
+  color: #F47922;
+}
+.notre-mission{
+  width: 50%;
+  font-size: 27px;
+  padding: 9%;
+}
+.notre-confession{
+  width: 100%;
+  font-size: 26px;
+  padding: 2% 10%;
+}
+.rejoindre{
+  display: flex;
+}
+.nous-rejoindre{
+  width: 65%;
+  font-size: 23px;
+  text-align: center;
+  padding: 9%;
+}
+.nous-rejoindre-photo{
+  display: flex;
+}
+
+.mask1 {
+  width: 36%;
+  height: 50%;
+  background-color: #8cffa0;
+  -webkit-mask-image: url(images/mask.svg);
+  -webkit-mask-size: 100%;
+  mask-image: url(images/mask.svg);
+  -webkit-mask-repeat: no-repeat;
+  
+}
+.mask2 {
+  width: 100px;
+  height: 100px;
+  background-color: #8cffa0;
+  -webkit-mask-image: url(images/mask.svg);
+  -webkit-mask-size: 100%;
+  mask-image: url(images/mask.svg);
+  -webkit-mask-repeat: no-repeat;
+  
+}
+.mask3 {
+  width: 100px;
+  height: 100px;
+  background-color: #8cffa0;
+  -webkit-mask-image: url(images/mask.svg);
+  -webkit-mask-size: 100%;
+  mask-image: url(images/mask.svg);
+  -webkit-mask-repeat: no-repeat;
+  
+}
+
+.vos-apport1{
+  width: 50%;
+  background-color: #F2F1F2;
+  text-align: center;
+  padding: 7% 7% 7% 15%;
+  font-size: 1rem;
+}
+.vos-apport2{
+  width: 50%;
+  background-color: #094D8E;
+  color: #fff;
+  text-align: center;
+   padding: 2% 15.5% 7% 7% ;
+}
+
+.carousel{
+  color: black;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}

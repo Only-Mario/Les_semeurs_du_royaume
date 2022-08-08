@@ -1,0 +1,47 @@
+.cont-onglets{
+	background: #f1f1f1;
+	width: 100%;
+	height: 30%;
+	display: flex;
+	border-bottom: 1px solid #333;
+}
+.onglets{
+	width: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: bold;
+	font-weight: 700;
+	cursor: pointer;
+}
+.onglets:not(:nth-child(2)){
+	border-right: 1px solid #333 ;
+}
+.contenu{
+	height: 70%;
+	width: 100%;
+	position: absolute;
+	opacity: 0;
+}
+.contenu p{
+	padding: 20px;
+}
+.active{
+	transition: all 0.3s ease;
+	border-bottom: 1px solid #fff;
+}
+.activeContenu{
+	animation: fade 0.5s forwards;
+}
+img{
+	width: 20%;
+	height: 10%;
+}
+@keyframes fade{
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
